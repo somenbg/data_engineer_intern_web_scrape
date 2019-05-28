@@ -20,6 +20,8 @@
   > 1. Top 10 cities -- Gives first ten city list
   > 2. Whole list(5-10 minutes) -- Gives the whole city rank list
   
+  > Use ***top_cities_without_user_input.py*** for directly generating the whole list
+  
 ## Meta:
   
   > Somen Bag - [somenbg@gmail.com](mailto:somenbg@gmail.com)\
