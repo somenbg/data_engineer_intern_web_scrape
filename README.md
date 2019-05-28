@@ -14,7 +14,7 @@
 ## Usage:
 
   > python top_cities.py\
-  > **This will create a csv file containing the city list on the same path**\
+  > **This will create a csv file containing the city list on the same path**
   
   > *This script has 2 options to choose from*
   > 1. Top 10 cities -- Gives first ten city list
