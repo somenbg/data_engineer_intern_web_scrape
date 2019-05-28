@@ -90,7 +90,7 @@ for table in all_tables[first:last]: #20:334
 		city_desc = regex.subf(' ,+', ',', city_desc)
 		#handling quotes
 		city_desc = regex.subf('\"', '\'', city_desc)
-		#handling slashes
+		#handling phonetic alphabets between slashes
 		city_desc = regex.subf(r'/[^>]+?/', '', city_desc)
 		#handling new line delimiter
 		city_desc = regex.subf(r'[\n\r]+', '', city_desc)
