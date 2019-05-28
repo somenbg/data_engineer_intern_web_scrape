@@ -18,7 +18,7 @@
 ## Meta:
   
   > Somen Bag - [somenbg@gmail.com](mailto:somenbg@gmail.com)\
-  > GitHub - [https://github.com/somenbg]\  
+  > GitHub - [https://github.com/somenbg] \
   > Project Link - [https://github.com/somenbg/data_engineer_intern_web_scrape]
   
   
