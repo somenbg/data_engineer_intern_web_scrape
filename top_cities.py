@@ -32,8 +32,26 @@ f = open(f_name, "w", encoding='utf-8-sig' )
 headers = "rank, city,city_desc, state\n"
 f.write(headers)
 
+#user input
+print("Choose from the following options:")
+print("1. Top 10 cities")
+print("2. Whole list(5-10 minutes)")
+
+while True:	
+	user = input("Enter an option: ")
+	if user.isnumeric() and user in str([1,2]):
+		user = int(user)
+		break
+
+if user == 1:
+	first = 20
+	last = 30
+else:
+	first = 20
+	last = 334
+
 #looping for every rank
-for table in all_tables[20:334]: #20:334
+for table in all_tables[first:last]: #20:334
 
 	#'td' tag holds the information of individual ranks
 	hold = table.findAll('td')
