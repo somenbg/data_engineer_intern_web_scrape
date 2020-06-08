@@ -1,4 +1,4 @@
-# data_engineer_intern_web_scrape
+# web_scraper
 > This script scrapes Top USA cities by population from Wikipedia
 
 ## Packages required:
